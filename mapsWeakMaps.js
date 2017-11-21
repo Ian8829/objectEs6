@@ -1,4 +1,4 @@
-const myMap = new Map();
+const myMap = new WeakMap();
 
 //API
 // set(), get(), size, clear(), has()
