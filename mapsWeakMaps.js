@@ -7,7 +7,8 @@ const myObj = {};
 const myFunc = function () {};
 
 myMap.set(myObj, 'bar');
-myMap.set(myObj, 'world');
+myMap.set(myFunc, 'world');
+myMap.set('string', 2);
 
 // myMap.clear();
 
