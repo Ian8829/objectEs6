@@ -36,3 +36,16 @@ function logEmail({email}) {
 }
 
 logEmail(Skyler);
+
+const person = {
+  name: 'Luke',
+  age: '24',
+  facts: {
+    hobby: 'Photo',
+    work: 'Software Developer'
+  }
+};
+
+const { facts: {work} } = person;
+console.log(work);
+
