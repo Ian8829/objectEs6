@@ -1,8 +1,12 @@
-const {color, name} = {
-  color: "blue",
-  name: "John",
-  state: "New York",
-  position: "Forward"
-};
+function generateObj() {
+  return {
+    color: "blue",
+    name: "John",
+    state: "New York",
+    position: "Forward"
+  }
+}
 
-console.log(color, name);
+const { name, state } = generateObj();
+
+console.log(name, state);
