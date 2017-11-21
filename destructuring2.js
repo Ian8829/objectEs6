@@ -29,4 +29,10 @@ const people = [
   }
 ];
 
-people.forEach(({firstName}) => console.log(firstName));
+const [,Skyler] = people;
+
+function logEmail({email}) {
+  console.log(email);
+}
+
+logEmail(Skyler);
