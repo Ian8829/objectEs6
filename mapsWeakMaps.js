@@ -13,6 +13,6 @@ myMap.set('hello', 'world');
 //Iterators
 // keys(), entries(), values
 
-for(let value of myMap.values()) {
-  console.log(value);
+for(let [key, value] of myMap.entries()) {
+  console.log(`${key} = ${value}`);
 }
