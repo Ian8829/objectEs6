@@ -49,3 +49,9 @@ const person = {
 const { facts: {work} } = person;
 console.log(work);
 
+const toString = ({name, age}) => {
+  return console.log(`${name} is ${age} years old`);
+}
+
+toString(person);
+
