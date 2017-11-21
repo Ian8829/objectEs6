@@ -7,3 +7,4 @@ const addThreeThings = (a, b, c) => {
 }
 
 addThreeThings(...first);
+addThreeThings(...second);
