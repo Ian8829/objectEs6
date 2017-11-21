@@ -3,8 +3,11 @@ const myMap = new Map();
 //API
 // set(), get(), size, clear(), has()
 
-myMap.set('foo', 'bar');
-myMap.set('hello', 'world');
+const myObj = {};
+const myFunc = function () {};
+
+myMap.set(myObj, 'bar');
+myMap.set(myObj, 'world');
 
 // myMap.clear();
 
