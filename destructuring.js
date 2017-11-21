@@ -7,6 +7,6 @@ function generateObj() {
   }
 }
 
-const { name, state } = generateObj();
+const { name: firstName, state: Orlando } = generateObj();
 
-console.log(name, state);
+console.log(firstName, Orlando);
